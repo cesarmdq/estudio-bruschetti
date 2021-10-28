@@ -13,6 +13,10 @@ body {
   height: 100vh;
 }
 
+svg {
+  max-width: 100%;
+}
+
 #logo path:nth-child(1) {
   stroke-dasharray: 228.54;
   stroke-dashoffset: 228.54;
