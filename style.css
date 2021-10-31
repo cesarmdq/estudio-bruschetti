@@ -17,6 +17,10 @@ svg {
   max-width: 100%;
 }
 
+#logo {
+  animation: to-top 2s ease forwards 4s;
+}
+
 #logo path:nth-child(1) {
   stroke-dasharray: 228.54;
   stroke-dashoffset: 228.54;
@@ -124,8 +128,20 @@ svg {
   animation: line-anim 2s ease forwards 2s;
 }
 
+/*Animaciones*/
+
 @keyframes line-anim {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes to-top {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-60%);
   }
 }
