@@ -18,19 +18,15 @@ section {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-.contenedor {
-  position: relative;
-  width: 100%;
+
+#logo {
+  padding-top: 2rem;
 }
 .datos {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-bottom: 1rem;
-  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
   visibility: hidden;
   opacity: 0;
   animation: aparecer 2s ease forwards 4s;
@@ -49,10 +45,6 @@ img {
 
 svg {
   max-width: 100%;
-}
-
-#logo {
-  animation: to-top 1s ease forwards 4s;
 }
 
 #logo path:nth-child(1) {
@@ -170,16 +162,6 @@ svg {
   }
 }
 
-@keyframes to-top {
-  from {
-    transform: translateY(0);
-  }
-
-  to {
-    transform: translateY(-20%);
-  }
-}
-
 @keyframes aparecer {
   to {
     visibility: visible;
@@ -188,8 +170,9 @@ svg {
 }
 
 /*MEDIA QUERIES*/
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .datos {
-    padding: 0 10rem;
+    padding: 3rem 10rem;
+    text-align: left;
   }
 }
