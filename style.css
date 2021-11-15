@@ -7,6 +7,7 @@
 body {
   background-color: black;
   font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   color: white;
   height: 100vh;
   display: flex;
@@ -16,6 +17,7 @@ body {
 }
 
 .intro {
+  text-align: center;
   opacity: 0;
   animation: aparecer 2s ease forwards 3s;
 }
@@ -157,4 +159,7 @@ svg {
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
+  .intro {
+    text-align: left;
+  }
 }
