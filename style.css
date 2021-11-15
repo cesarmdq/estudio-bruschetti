@@ -28,6 +28,12 @@ svg {
   max-width: 100%;
 }
 
+.whatsapp-logo {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
 #logo path:nth-child(1) {
   stroke-dasharray: 228.54;
   stroke-dashoffset: 228.54;
