@@ -39,6 +39,9 @@ svg {
   max-width: 100%;
 }
 
+#logo {
+  text-align: center;
+}
 .whatsapp-logo {
   position: absolute;
   bottom: 5%;
