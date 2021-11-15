@@ -5,42 +5,23 @@
 }
 
 body {
-  background-color: #232742;
-  font-size: 0.9rem;
+  background-color: black;
   font-family: "Montserrat", sans-serif;
   color: white;
-}
-
-section {
-  width: 85%;
   height: 100vh;
-  max-width: 1300px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-#logo {
-  padding-top: 2rem;
-}
-.datos {
-  padding: 2rem 0;
-  text-align: center;
-  visibility: hidden;
+.intro {
   opacity: 0;
-  animation: aparecer 2s ease forwards 4s;
+  animation: aparecer 2s ease forwards 3s;
 }
 
-h1 {
-  text-align: center;
-}
-
-p {
-  margin-top: 0.5rem;
-}
-img {
-  margin-top: 1rem;
+.intro p {
+  margin-top: 2rem;
 }
 
 svg {
@@ -164,15 +145,10 @@ svg {
 
 @keyframes aparecer {
   to {
-    visibility: visible;
     opacity: 1;
   }
 }
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
-  .datos {
-    padding: 3rem 10rem;
-    text-align: left;
-  }
 }
