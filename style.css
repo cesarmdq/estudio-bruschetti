@@ -6,11 +6,45 @@
 
 body {
   background-color: #232742;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+section {
+  width: 85%;
+  height: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contenedor {
+  position: relative;
   width: 100%;
-  height: 100vh;
+}
+.datos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 10rem;
+  visibility: hidden;
+  opacity: 0;
+  animation: aparecer 2s ease forwards 4s;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+img {
+  margin-top: 1rem;
 }
 
 svg {
@@ -143,5 +177,12 @@ svg {
 
   to {
     transform: translateY(-60%);
+  }
+}
+
+@keyframes aparecer {
+  to {
+    visibility: visible;
+    opacity: 1;
   }
 }
