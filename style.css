@@ -29,8 +29,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
+  padding-bottom: 1rem;
   width: 100%;
-  padding: 0 10rem;
   visibility: hidden;
   opacity: 0;
   animation: aparecer 2s ease forwards 4s;
@@ -52,7 +52,7 @@ svg {
 }
 
 #logo {
-  animation: to-top 2s ease forwards 4s;
+  animation: to-top 1s ease forwards 4s;
 }
 
 #logo path:nth-child(1) {
@@ -176,7 +176,7 @@ svg {
   }
 
   to {
-    transform: translateY(-60%);
+    transform: translateY(-20%);
   }
 }
 
@@ -184,5 +184,12 @@ svg {
   to {
     visibility: visible;
     opacity: 1;
+  }
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 1024px) {
+  .datos {
+    padding: 0 10rem;
   }
 }
