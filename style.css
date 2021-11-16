@@ -25,6 +25,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .intro {
   text-align: center;
   opacity: 0;
@@ -45,8 +51,8 @@ svg {
 
 .whatsapp-logo {
   position: absolute;
-  bottom: 5%;
-  right: 10%;
+  bottom: 2.5%;
+  right: 5%;
   opacity: 0;
   animation: aparecer 2s ease forwards 3.5s;
 }
@@ -179,5 +185,8 @@ svg {
   }
   section {
     text-align: left;
+  }
+  .container {
+    width: 100%;
   }
 }
