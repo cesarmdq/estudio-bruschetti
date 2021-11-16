@@ -35,17 +35,20 @@ a:hover {
   margin-top: 2rem;
 }
 
+section {
+  text-align: center;
+}
+
 svg {
   max-width: 100%;
 }
 
-#logo {
-  text-align: center;
-}
 .whatsapp-logo {
   position: absolute;
   bottom: 5%;
   right: 10%;
+  opacity: 0;
+  animation: aparecer 2s ease forwards 3.5s;
 }
 
 #logo path:nth-child(1) {
@@ -172,6 +175,9 @@ svg {
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
   .intro {
+    text-align: left;
+  }
+  section {
     text-align: left;
   }
 }
