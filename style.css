@@ -37,6 +37,10 @@ a:hover {
   animation: aparecer 2s ease forwards 3s;
 }
 
+.intro h1 {
+  font-size: 1rem;
+}
+
 .intro p {
   margin-top: 2rem;
 }
@@ -182,6 +186,9 @@ svg {
 @media (min-width: 768px) {
   .intro {
     text-align: left;
+  }
+  .intro h1 {
+    font-size: 1.5rem;
   }
   section {
     text-align: left;
