@@ -1,0 +1,23 @@
+{
+  "name": "estudio-bruschetti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarmdq/estudio-bruschetti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarmdq/estudio-bruschetti/issues"
+  },
+  "homepage": "https://github.com/cesarmdq/estudio-bruschetti#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
