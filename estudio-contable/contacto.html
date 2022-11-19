@@ -77,7 +77,13 @@
           <h1>Estudio Contable Laboral Impositivo | Contacto</h1>
           <hr />
         </div>
-        <form action="" class="mb-5">
+        <form
+          action=""
+          class="mb-5"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
           <div class="input-group mb-3">
             <span class="input-group-text"
               ><i class="bi bi-person-fill"></i
@@ -87,6 +93,7 @@
                 type="text"
                 class="form-control"
                 id="nombre"
+                name="nombre"
                 placeholder="Nombre"
               />
               <label for="nombre">Nombre</label>
@@ -101,6 +108,7 @@
                 type="text"
                 class="form-control"
                 id="email"
+                name="email"
                 placeholder="Email"
               />
               <label for="email">Email</label>
@@ -114,12 +122,13 @@
               class="form-control"
               name="mensaje"
               id="mensaje"
+              name="mensaje"
               placeholder="Deje su mensaje aqui"
               style="height: 100px"
             ></textarea>
           </div>
           <button
-            type="button"
+            type="submit"
             class="btn btn-outline-dark"
             data-bs-toggle="modal"
             data-bs-target="#modal"
