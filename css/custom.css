@@ -11811,5 +11811,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  padding-top: 4.5rem;
+}
+
+iframe {
+  filter: grayscale(1);
+}
 
 /*# sourceMappingURL=custom.css.map */
